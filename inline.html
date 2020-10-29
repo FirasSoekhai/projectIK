@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Proj Website</title>
+    <meta name="author" content="Firas Soekhai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stijl.css">
+    <style>
+
+    body{
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    nav a{
+        display: block;
+        padding: .5em;
+        text-align: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2.5em;
+    }
+
+   </style>
+  </head>
+
+  <body lang="nl">
+      <nav>
+          <ul>
+            <li>
+              <a href="index.html" >Wie ben ik?</a>
+            </li>
+            <li>
+              <a href="inlineBlock.html">A day in my life</a>
+            </li>
+            <li>
+              <a href="inline.html" class="active">Schoolwerk</a>
+            </li>
+            <li>
+              <a href="grid.html" >Hobbies</a>
+            </li>
+            </li>
+          </ul>
+        </nav>
+      <h1 class="wie">Link naar mijn bew<span>ij</span>zenmap waar ik al mijn trainingen tot nu toe heb staan.</h1>
+      <a class="ion-ios-folder-outline" target="_blank" href="https://drive.google.com/drive/folders/1AGqXW_EZxPiaS3t70WyLVNjcHtPtoppM"></a>
+    </main>
+  </body>
+</html>

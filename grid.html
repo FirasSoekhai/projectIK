@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Proj Website</title>
+    <meta name="author" content="Firas Soekhai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stijl.css">
+    <style>
+    body{
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    nav a{
+        display: block;
+        padding: .5em;
+        text-align: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2.5em;
+    }
+
+   </style>
+  </head>
+
+  <body lang="nl">
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Wie ben ik?</a>
+        </li>
+        <li>
+          <a href="inlineBlock.html">A day in my life</a>
+        </li>
+        <li>
+          <a href="inline.html">Schoolwerk</a>
+        </li>
+        <li>
+          <a href="grid.html" class="active">Hobbies</a>
+        </li>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="wie">H<span>o</span>bbies</h1>
+      <p class="about">Mijn hobbies zijn: muziek luisteren, gamen, chillen op social media, programmeren en chillen. 
+        <br>
+        Verder werk ik 4 dagen per week bij de Vomar in mijn vrije tijd. Gebruik ik veel social media, zoals Insta en Snapchat. mijn insta en snapchat naam is: Firasjuh, zorg ervoor dat je me volgt
+      </p>
+    </header>
+  </body>
+</html>

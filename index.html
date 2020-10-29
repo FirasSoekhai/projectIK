@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Proj Website</title>
+    <meta name="author" content="Firas Soekhai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stijl.css">
+    <style>
+   /*  stijl hier de nav en de sections met display: block;  */
+   body{
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    nav a{
+        display: block;
+        padding: .5em;
+        text-align: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2.5em;
+    }
+   </style>
+  </head>
+
+  <body lang="nl">
+      <nav>
+          <ul>
+            <li>
+              <a href="index.html" class="active">Wie ben ik?</a>
+            </li>
+            <li>
+              <a href="inlineBlock.html">A day in my life</a>
+            </li>
+            <li>
+              <a href="inline.html">Schoolwerk</a>
+            </li>
+            <li>
+              <a href="grid.html" >Hobbies</a>
+            </li>
+            <li>
+            </li>
+          </ul>
+        </nav>
+    <header>
+        <h1 class="wie">Wie b<span>e</span>n ik?</h1>
+        <p class="about">Ik ben Firas Soekhai, ik ben een 17 jaar oude jongen die een opleiding tot Mediadeveloper niveau 4. Ik leer op deze opleiding heel veel over programmeren, als voorbeeld: HTML, CSS en JavaScript.</p>
+      </header>
+      <main>
+        <section>
+          <h2 class="wie">Een st<span>u</span>kje over mij</h1>
+          <p class="about">Ik ben geboren en getogen in Beverwijk, momenteel woon ik in Heemskerk en de reis naar school is dan ook vrij makkelijk omdat ik lopend naar station kan.</p>
+        </section>
+    </main>
+  </body>
+</html>
