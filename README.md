@@ -1,6 +1,6 @@
 # projectIK
 
-Dit was het eerste project waar we mee zijn begonnen. We moesten een website maken 
+Dit was het eerste project waar we mee zijn begonnen. Het project heette Project IK, en we kregen deze opdracht van Saskia van het vak Proj. We kregen de taak een website maken 
 over ons zelf, wat onze hobby's waren en een link naar onze bewijzenmap.
 toevallig hadden wij net een opdracht af voor Pro1 en konden we de 
 template van die website gebruiken voor ons project, aangezien we nog niet 
